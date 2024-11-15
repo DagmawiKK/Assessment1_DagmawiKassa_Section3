@@ -68,6 +68,10 @@ section {
 .product:hover {
     transform: scale(1.05);
 }
+
+article {
+    min-height: 650px;
+}
 .product-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -160,7 +164,7 @@ footer{
     }
 
     ul {
-        flex-direction: column; 
+        /* flex-direction: column;  */
         gap: 2vh; 
     }
 
